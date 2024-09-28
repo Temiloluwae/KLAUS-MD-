@@ -1,5 +1,5 @@
 {
-  "name": "KLAUS-MD ",
+  "name": "SMILE-MD ",
   "description": " Whatsapp bot.",
   "logo": "https://i.imgur.com/iZhcpEQ.jpeg",
   "keywords": [
@@ -9,7 +9,7 @@
   "stack": "container",
   "env": { 
       "SESSION_ID": {
-      "description": "your session id",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"CIhbABPmydRrYA/bGtgWnKwZV3BVd+VA/bMunaQGqkU="},"public":{"type":"Buffer","data":"sQihJIeXYgU4eIeTB7zt4buLU0y6vqE0cigNCY84Hzk="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"0PPcWfs+LGGv+fSq9QCaG3zTOdEh4hSZrYXtbFUa2H4="},"public":{"type":"Buffer","data":"UYNCfYCNFWZkOONBMBrZypBgUx1i3uO32VqCOJzmCRs="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"cOhfD8JFa1OyzncYeXfus4JKAMFZktBf3vi6Gbzr5F4="},"public":{"type":"Buffer","data":"FwSqwiRHhUy9vo9RbYz8yOG9L8Xia3wPzTl38nHWMWc="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"KH7+NuADRilpIY4+js00pqGt6V0FVrDyeFQ6Yt0wBXY="},"public":{"type":"Buffer","data":"axxvY4DLIXJnGU4FMwxyqFBtHGUdwRhPBInw7cXzexQ="}},"signature":{"type":"Buffer","data":"6ud+WZG97Y664LG8zoVeHRiVSR6C3p2taUG7LirRp3t7n8RMBTet6VCOZ5d1A8MOCB1bVkVMCw/E4NFZNlYOBw=="},"keyId":1},"registrationId":189,"advSecretKey":"LW90Rt/GkBW6noI/xHdp3I1XCq743EZUT0JTyQwRvks=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"-PLSRv_8QmO2LBhHan86WA","phoneId":"315a44f6-4de6-436e-8559-dc4afa7a8fe4","identityId":{"type":"Buffer","data":"X/fPuJH8PTWJfXTgXAfolIBXAE8="},"registered":true,"backupToken":{"type":"Buffer","data":"ijA+tZey0tWBxbW4iq0qKYebWKs="},"registration":{},"pairingCode":"RPJYSAAK","me":{"id":"2349070018773:26@s.whatsapp.net","name":"S\n\n\n\n\n\n\n\n\n\nM\n\n\n\n\n\n\n\n\n\nI\n\n\n\n\n\n\n\n\n\nL\n\n\n\n\n\n\n\n\n\nE"},"account":{"details":"CNTXv24Q247ftwYYASAAKAA=","accountSignatureKey":"3deasNpyPTbqYIUOArx+OL6M2kSp/J4ivUOUkERUpmM=","accountSignature":"m7ai6eaN0BxH1D6kHWNZuU+fFSQ4H7O8ZjOt/pwrVOArX4Sq2E4Na3mWJP4l4OLa/KeG0wGXzTT//RN8Dv72Ag==","deviceSignature":"oB+1NvC4GxvnZYXw99ZnoWUxCtp0rywRzQRKnENyD8jUsty0abGccFSYQVs1N7gcXxVu0n29JPy0ULfSy+FADg=="},"signalIdentities":[{"identifier":{"name":"2349070018773:26@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bd3XmrDacj026mCFDgK8fji+jNpEqfyeIr1DlJBEVKZj"}}],"platform":"smba","lastAccountSyncTimestamp":1727514462,"myAppStateKeyId":"AAAAAHsR"}",
       "required": true,
       "value": ""
     },
@@ -26,7 +26,7 @@
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_TYPING": {
       "description": "make it true if you want bot to show typing",
@@ -40,13 +40,13 @@
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
